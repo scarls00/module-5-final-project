@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OMDb API Practice</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/6487f0a3d4.js"crossorigin="anonymous"></script>
 </head>
@@ -15,6 +15,11 @@
         <div class="nav__row">
             <div class="nav__logo--img"><img src="assets/omdb-logo.jpeg" alt="OMDb logo">
         </div>
+        <ul class="nav__links">
+            <li><a href="Home"></a></li>
+            <li><a href="Find-Your-Film"></a></li>
+            <li><a href="Home"></a></li>
+        </ul>
         <button class="btn__menu" onclick="openMenu()">
             <i class="fas fa-times"></i>
         </button>
@@ -24,13 +29,13 @@
         </button>
         <ul class="menu__links">
           <li class="menu__list">
-            <a href="#Home" class="menu__link" onclick="closeMenu()">Home</a>
+            <a href="#home" class="menu__link" onclick="closeMenu()">Home</a>
           </li>
           <li class="menu__list">
-            <a href="#Find-Your-Film" class="menu__link" onclick="closeMenu()">Find Your Film</a>
+            <a href="#find-your-film" class="menu__link" onclick="closeMenu()">Find Your Film</a>
           </li>
           <li class="menu__list">
-            <a href="#Contact" class="menu__link" onclick="closeMenu()">Contact</a>
+            <a href="#contact" class="menu__link" onclick="closeMenu()">Contact</a>
           </li>
         </ul>
        </div>
